@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+/* Header */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;   
+}
+/*Header */
+
+.zap {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -40px;
+    width: 50px;
+    height: 40px;
+}
+
+.gmail {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -40px;
+    width: 40px;
+    height: 40px;
+}
+
+.gm {
+    position: absolute;
+    margin-left: 1105px;
+    margin-top: -82px;
+}
+
+.foto {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    border: solid rgb(12, 8, 255) 2px;
+    align-items: center;
+}
+
+.fundo {
+    width: 100%;
+    height: 500px;
+}
+
+.whats {
+    position: absolute;
+    color: rgb(160, 255, 255);
+    padding-left: 170px;
+    margin-top: -43px
+}
+
+.github {
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 92px;
+}
+
+.git {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 440px;
+}
+
+.insta {
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 50px;
+}
+
+.intg {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 620px;
+    margin-top: 12px;
+}
+
+.din {
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 10px;
+}
+
+.linke {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 840px;
+    margin-top: -27px;
+}
+
+@media (max-width: 1020px) {
+    .foto {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 140px;
+        width: 100px;
+        height: 100px;
+        border-radius: 40%;
+        border: solid red 2px;
+        align-items: center;
+    }
+    .fundo {
+        width: 100%;
+        height: 350px;
+    }
+    .zap {
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 10px;
+        width: 50px;
+        height: 40px;
+    }
+    .whats {
+        position: absolute;
+        color: rgb(160, 255, 255);
+        padding-left: 20px;
+        margin-top: 30px
+    }
+    .gmail {
+        width: 35px;
+        margin-left: 280px;
+        margin-top: 10px;
+    }
+    .gm {
+        position: absolute;
+        margin-left: 255px;
+        margin-top: -10px;
+    }
+    .github {
+        position: absolute;
+        margin-left: 47px;
+        margin-top: 130px;
+    }
+
+    .git {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-top: 85px;
+        margin-left: 25px;
+    }
+
+    .insta {
+        position: absolute;
+        margin-left: 153px;
+        margin-top: 90px;
+    }
+
+    .intg {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        margin-left: 133px;
+        margin-top: 50px;
+    }
+    .din {
+        position: absolute;
+        margin-left: 280px;
+        margin-top: 50px;
+    }
+    .linke {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        margin-left: 260px;
+        margin-top: 10px;
+    }
+}

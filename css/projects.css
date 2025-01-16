@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+img {
+    width: 390px;
+    height: 300px;
+}
+
+.foto {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    border: solid red 2px;
+    align-items: center;
+}
+
+.fundo {
+    width: 100%;
+    height: 500px;
+}
+
+/* Header */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;   
+}
+
+.king {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 570px;
+    font-size: larger;
+    font-size: bold;
+}
+
+.projects {
+    width: 330px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 35%;
+}
+
+.github {
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 80px;
+}
+
+.git {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 440px;
+}
+
+.insta {
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 38px;
+}
+
+.intg {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 620px;
+    margin-top: -px;
+}
+
+.din {
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -3px;
+}
+
+.linke {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 840px;
+    margin-top: -38px;
+}
+
+.textprojeto {
+    margin-top: -95px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1020px) {
+    .projects {
+        width: 300px;
+        height: 390px;
+        margin-top: 60px;
+        margin-left: 45px;
+    }
+    .foto {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 140px;
+        width: 100px;
+        height: 100px;
+        border-radius: 40%;
+        border: solid red 2px;
+        align-items: center;
+    }
+    .fundo {
+        width: 100%;
+        height: 350px;
+    }
+    .king {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 100px;
+        font-size: larger;
+        font-size: bold;
+    }
+
+    .github {
+        position: absolute;
+        margin-left: 47px;
+        margin-top: 130px;
+    }
+
+    .git {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-top: 85px;
+        margin-left: 25px;
+    }
+
+    .insta {
+        position: absolute;
+        margin-left: 153px;
+        margin-top: 90px;
+    }
+
+    .intg {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        margin-left: 133px;
+        margin-top: 50px;
+    }
+    .din {
+        position: absolute;
+        margin-left: 280px;
+        margin-top: 50px;
+    }
+    .linke {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        margin-left: 260px;
+        margin-top: 10px;
+    }
+}
